@@ -9,7 +9,6 @@ Do
 
 
 list.RemoveAt(0)
-Dim string
 For Each Arg In list
         WshShell.Run "cmd /c scrcpy.exe -s" & Arg, 0, false
 Next
